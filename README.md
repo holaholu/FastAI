@@ -12,3 +12,4 @@ This repository tracks my progress through the fast.ai course: [Practical Deep L
   - Fine-tuning a model on a new dataset.
   - Making predictions (inference) with a trained model.
 - **File**: `isitabird.ipynb`
+- **Deployed App**: [Bird or Forest Detector on Hugging Face Spaces](https://huggingface.co/spaces/OLA007/BirdDeployFinal)
