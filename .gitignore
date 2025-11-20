@@ -1,0 +1,8 @@
+# Ignore deployment binaries, but keep app code
+BirdDeployFinal/bird_model_full.pth
+BirdDeployFinal/bird_model.pth
+BirdDeployFinal/classes.json
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+# Ignore the inner git repo for the Hugging Face Space
+BirdDeployFinal/.git/
