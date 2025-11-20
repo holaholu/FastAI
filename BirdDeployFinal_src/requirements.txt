@@ -1,0 +1,5 @@
+fastai==2.7.15
+fastdownload
+torch
+torchvision
+gradio
