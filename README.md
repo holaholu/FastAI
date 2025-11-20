@@ -13,3 +13,12 @@ This repository tracks my progress through the fast.ai course: [Practical Deep L
   - Making predictions (inference) with a trained model.
 - **File**: `isitabird.ipynb`
 - **Deployed App**: [Bird or Forest Detector on Hugging Face Spaces](https://huggingface.co/spaces/OLA007/BirdDeployFinal)
+
+### Deployment Notes
+
+- Training and experimentation are done in `isitabird.ipynb` on Kaggle using fastai.
+- The notebook exports three artifacts for deployment:
+  - `bird_detector.pkl` (fastai export, for local experiments).
+  - `classes.json` (class labels).
+  - `bird_model_full.pth` (full fastai model used by the Space).
+- The Hugging Face Space uses a small Gradio app defined in `BirdDeployFinal_src/app.py` with dependencies in `BirdDeployFinal_src/requirements.txt`.

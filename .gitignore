@@ -4,5 +4,11 @@ BirdDeployFinal/bird_model.pth
 BirdDeployFinal/classes.json
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+
+# Don't track files inside the Spaces repo; use BirdDeployFinal_src as reference
+# (BirdDeployFinal itself is committed as a submodule entry already)
+# BirdDeployFinal/*
+# !BirdDeployFinal/.git
 # Ignore the inner git repo for the Hugging Face Space
 BirdDeployFinal/.git/
