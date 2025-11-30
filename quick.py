@@ -6,4 +6,4 @@ def firstUniqChar(s: str) -> int:
         return -1
 
 
-print(firstUniqChar("leetcode"))
+print(firstUniqChar("leetcoders"))
